@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<NoteCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <songName>Test song</songName>
+  <Notes>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>55507</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>86553</spawnTick>
+      <speed>1</speed>
+      <yOffset>0.589</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>99724</spawnTick>
+      <speed>1</speed>
+      <yOffset>0.942</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>131711</spawnTick>
+      <speed>1</speed>
+      <yOffset>0.451</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>148646</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>184396</spawnTick>
+      <speed>1</speed>
+      <yOffset>-0.53</yOffset>
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>201331</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+    </Note>
+  </Notes>
+</NoteCollection>
