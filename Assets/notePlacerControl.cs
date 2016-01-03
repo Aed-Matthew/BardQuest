@@ -73,6 +73,7 @@ private void createNote()
         GameObject newNote = NoteHelper.NoteToObject(NA);
         newNote.tag = "note";
         newNote.transform.position = new Vector2(0, 0);
+        newNote.transform.localPosition = Vector2.zero;
     }
 
 }

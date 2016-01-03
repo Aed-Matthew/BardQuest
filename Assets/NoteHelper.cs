@@ -19,7 +19,6 @@ public static class NoteHelper
         temp.GetComponent<AttributeHolder>().setNote(AttributeClass);
         temp.transform.position = GetNotePos(AttributeClass);
         temp.tag = "note";
-        temp.transform.Translate(0, AttributeClass.yOffset, 0);
 
         return temp;
     }

@@ -10,12 +10,13 @@ public class AttributeHolder : MonoBehaviour {
         if (NA == null)
         {
             Debug.LogError("SET NULL NOTE ATTRIBITE");
+            
         }
         myNoteAttribute = NA;
     }
 
 
-
+    
     public NoteAttributes getNote()
     {
         return myNoteAttribute;
