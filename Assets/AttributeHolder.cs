@@ -7,13 +7,24 @@ public class AttributeHolder : MonoBehaviour {
     private static GameObject NoteList;
     
     public void setNote(NoteAttributes NA){
+        if (NA == null)
+        {
+            Debug.LogError("SET NULL NOTE ATTRIBITE");
+        }
         myNoteAttribute = NA;
     }
+
+
 
     public NoteAttributes getNote()
     {
         return myNoteAttribute;
         
+    }
+
+    public void setNoteType(noteType NT)
+    {
+        myNoteAttribute.myNoteType = NT;
     }
 
 	// Use this for initialization

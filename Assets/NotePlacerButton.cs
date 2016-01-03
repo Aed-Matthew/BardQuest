@@ -14,10 +14,21 @@ public class NotePlacerButton : Editor{
         notePlacerControl myScript = (notePlacerControl)target;
         songName = EditorGUILayout.TextField("Song name: ", songName);
 
-        if (GUILayout.Button("Play Song"))
+
+        EditorGUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Play"))
         {
             myScript.playSong(songName, songPos);
         }
+
+
+        if (GUILayout.Button("Pause"))
+        {
+       //TODO
+        }
+
+        EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();
 
