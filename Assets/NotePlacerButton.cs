@@ -23,8 +23,6 @@ public class NotePlacerButton : Editor{
 
         if (GUILayout.Button("Play"))
         {
-            //  if (Application.isPlaying == false) {Debug.LogWarning("This can only be used in Play-mode");  return; }
-
             myScript.playSong(songName, songPos);
         }
 
@@ -48,7 +46,6 @@ public class NotePlacerButton : Editor{
 
         if (GUILayout.Button("Save Notes"))
         {
-
             myScript.saveSong();
         }
 

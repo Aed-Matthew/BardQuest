@@ -11,7 +11,6 @@ GameObject:
   - 212: {fileID: 21221578}
   - 114: {fileID: 11443660}
   - 114: {fileID: 11488628}
-  - 114: {fileID: 11437992}
   m_Layer: 0
   m_Name: musicNote
   m_TagString: Untagged
@@ -31,17 +30,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11437992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59cad22d78078b24c8efcddecda91cc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11443660
 MonoBehaviour:
   m_ObjectHideFlags: 1

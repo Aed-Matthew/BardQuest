@@ -18,8 +18,6 @@ public class NoteEditor : Editor {
 
         AttributeHolder myScript = (AttributeHolder)target;
 
-        if (myScript.getNote() == null) { return; }
-
 
         GUILayout.BeginHorizontal();
 
