@@ -19,6 +19,7 @@ public class notePlacerControl : MonoBehaviour {
 
     public void playSong(string songName, float songPos)
     {
+        if (Application.isPlaying == false) { return; }
         soundSource.clip = Resources.Load("Songs/MusicData/" + songName) as AudioClip;
 
 

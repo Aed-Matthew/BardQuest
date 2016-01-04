@@ -32,7 +32,6 @@ public class NotePlacerButton : Editor{
        //TODO
             myScript.pauseSong();
             songPos = ((float)(myScript.soundSource.timeSamples) / myScript.soundToPlace.frequency)/myScript.soundToPlace.length;
-            Debug.Log(songPos);
         }
 
         EditorGUILayout.EndHorizontal();
