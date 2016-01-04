@@ -29,6 +29,7 @@ public class notePlacerControl : MonoBehaviour {
     }
 
 
+
     public void saveSong()
     {
         GameObject.Find("soundManager").GetComponent<SoundManager>().saveNotes();
@@ -40,8 +41,10 @@ public class notePlacerControl : MonoBehaviour {
 
 
 
+
     void Update()
     {
+
         if (Input.GetKeyDown("e")){
             createNote();
         }
@@ -62,7 +65,7 @@ public class notePlacerControl : MonoBehaviour {
 
 
 
-private void createNote()
+public void createNote()
     {
         GameObject listObject = GameObject.Find("soundManager");
         NoteAttributes NA = new NoteAttributes();

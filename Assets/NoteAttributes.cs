@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using System.IO;
 
 
-public enum noteType { Tap, DoubleTap, Hold };
+public enum noteType { Tap, DoubleTap, Hold, Item };
 public enum movementType {Line, Sway} ;
 
 
@@ -15,6 +15,7 @@ public class NoteAttributes  {
     public float speed = 1.0f;
     public float yOffset = 0.0f;
     public float holdTimer = 0.0f;
+    public string itemSpawn = "";
 }
 
 

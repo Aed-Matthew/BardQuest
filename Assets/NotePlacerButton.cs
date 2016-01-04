@@ -9,6 +9,9 @@ public class NotePlacerButton : Editor{
 
     string songName = "BardsTheme";
     float songPos = 0.0f;
+
+
+
     public override void OnInspectorGUI()
     {
         notePlacerControl myScript = (notePlacerControl)target;

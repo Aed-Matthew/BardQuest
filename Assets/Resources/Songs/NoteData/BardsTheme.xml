@@ -9,6 +9,7 @@
       <speed>1</speed>
       <yOffset>0</yOffset>
       <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Tap</myNoteType>
@@ -17,6 +18,7 @@
       <speed>1</speed>
       <yOffset>0.55</yOffset>
       <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Tap</myNoteType>
@@ -25,6 +27,7 @@
       <speed>1</speed>
       <yOffset>0.96</yOffset>
       <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Tap</myNoteType>
@@ -33,6 +36,7 @@
       <speed>1</speed>
       <yOffset>1.34</yOffset>
       <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Hold</myNoteType>
@@ -41,6 +45,7 @@
       <speed>1</speed>
       <yOffset>-0.87</yOffset>
       <holdTimer>0.65625</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Hold</myNoteType>
@@ -49,6 +54,7 @@
       <speed>1</speed>
       <yOffset>0</yOffset>
       <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
     <Note>
       <myNoteType>Hold</myNoteType>
@@ -57,6 +63,142 @@
       <speed>1</speed>
       <yOffset>-0.5</yOffset>
       <holdTimer>2.09375</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>138297</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>151468</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>183455</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>197567</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>254015</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>268127</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>282239</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>296351</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>332102</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>338687</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>348095</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>381964</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>395135</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>433708</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
+    </Note>
+    <Note>
+      <myNoteType>Tap</myNoteType>
+      <myMovementType>Line</myMovementType>
+      <spawnTick>449702</spawnTick>
+      <speed>1</speed>
+      <yOffset>0</yOffset>
+      <holdTimer>0</holdTimer>
+      <itemSpawn />
     </Note>
   </Notes>
 </NoteCollection>
