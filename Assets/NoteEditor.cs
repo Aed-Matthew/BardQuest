@@ -48,10 +48,33 @@ public class NoteEditor : Editor {
             }
         }
 
+        if (myScript.getNote().myNoteType == noteType.Hold)
+        {
+            float curPos = myScript.getNote().holdTimer;
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Hold Time: ");
+            curPos = GUILayout.HorizontalSlider(curPos, 0.0f, 5.0f);
+
+            GUILayout.EndHorizontal();
+
+            {
+                foreach (Object cur in targets)
+                {
+                    myScript = (AttributeHolder)cur;
+                    myScript.getNote().holdTimer = curPos;
+                }
+            }
+        }
+        else
+        {
+            GUILayout.EndHorizontal();
+        }
 
 
 
-        GUILayout.EndHorizontal();
+
+
 
     }
 

@@ -14,6 +14,7 @@ public class NoteAttributes  {
     public int spawnTick = 0;
     public float speed = 1.0f;
     public float yOffset = 0.0f;
+    public float holdTimer = 0.0f;
 }
 
 

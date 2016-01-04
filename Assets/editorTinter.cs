@@ -12,8 +12,9 @@ public class editorTinter : MonoBehaviour {
 	void Start () {
         NA = gameObject.GetComponent<AttributeHolder>().getNote();
         SR = gameObject.GetComponent<SpriteRenderer>();
-        InvokeRepeating("updateColor", 0.0f, 0.1f);
+      //  InvokeRepeating("updateColor", 0.0f, 0.1f);
 	}
+
 
     void updateColor()
     {
@@ -35,14 +36,24 @@ public class editorTinter : MonoBehaviour {
 
          case noteType.Hold:
              SR.color = Color.magenta;
+             drawTail();
              break;
 
      }
         
     }
+
+
+
+    void drawTail()
+    {
+        float holdSeconds = 1.0f;
+        holdSeconds = gameObject.GetComponent<AttributeHolder>().getNote().holdTimer; 
+        Debug.DrawLine(gameObject.transform.position, gameObject.transform.position - new Vector3(holdSeconds, 0, 0));
+    }
 	
 	// Update is called once per frame
 	void Update () {
-	
+        updateColor();
 	}
 }
