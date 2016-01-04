@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+    [ExecuteInEditMode]
 //Handles how the notes should look in the editor
 public class editorTinter : MonoBehaviour {
 
@@ -8,6 +9,10 @@ public class editorTinter : MonoBehaviour {
 
     NoteAttributes NA;
     SpriteRenderer SR;
+
+
+
+
 
 	void Start () {
         NA = gameObject.GetComponent<AttributeHolder>().getNote();
@@ -38,6 +43,11 @@ public class editorTinter : MonoBehaviour {
              SR.color = Color.magenta;
              drawTail();
              break;
+
+         case noteType.Item:
+             SR.color = Color.yellow;
+             break;
+
 
      }
         

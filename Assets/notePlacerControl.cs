@@ -4,7 +4,7 @@ using System.Collections;
 public class notePlacerControl : MonoBehaviour {
 
     public AudioClip soundToPlace;
-    private AudioSource soundSource;
+    public AudioSource soundSource;
 
 
     int songPos = 0;
@@ -28,6 +28,11 @@ public class notePlacerControl : MonoBehaviour {
         soundSource.time = soundToPlace.length * songPos;
     }
 
+    public void pauseSong()
+    {
+        soundSource.Pause();
+
+    }
 
 
     public void saveSong()
@@ -38,7 +43,6 @@ public class notePlacerControl : MonoBehaviour {
     {
         GameObject.Find("soundManager").GetComponent<SoundManager>().loadSong();
     }
-
 
 
 

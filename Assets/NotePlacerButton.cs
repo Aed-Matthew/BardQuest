@@ -12,6 +12,7 @@ public class NotePlacerButton : Editor{
 
 
 
+
     public override void OnInspectorGUI()
     {
         notePlacerControl myScript = (notePlacerControl)target;
@@ -29,6 +30,9 @@ public class NotePlacerButton : Editor{
         if (GUILayout.Button("Pause"))
         {
        //TODO
+            myScript.pauseSong();
+            songPos = ((float)(myScript.soundSource.timeSamples) / myScript.soundToPlace.frequency)/myScript.soundToPlace.length;
+            Debug.Log(songPos);
         }
 
         EditorGUILayout.EndHorizontal();
@@ -55,7 +59,7 @@ public class NotePlacerButton : Editor{
 
     void Update()
     {
-
+        
     }
 
 }

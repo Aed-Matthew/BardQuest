@@ -203,6 +203,7 @@ GameObject:
   - 4: {fileID: 1111239100}
   - 114: {fileID: 1111239101}
   - 114: {fileID: 1111239102}
+  - 114: {fileID: 1111239103}
   m_Layer: 0
   m_Name: notePlacer
   m_TagString: Untagged
@@ -234,18 +235,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlace: {fileID: 8300000, guid: 500c662c69a32f64492bf7a3fe8f2ede, type: 3}
+  soundSource: {fileID: 0}
 --- !u!114 &1111239102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1111239099}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c1e3c454ea2342448ceb665fd84b11b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeepSceneViewActive: 1
+  KeepSceneViewActive: 0
+--- !u!114 &1111239103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111239099}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a81ea3f8b1521743bcf7166a928d1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1611431126
 GameObject:
   m_ObjectHideFlags: 0

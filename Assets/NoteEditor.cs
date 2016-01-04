@@ -39,12 +39,12 @@ public class NoteEditor : Editor {
             }
         }
 
-        if (GUILayout.Button("Double Tap"))
+        if (GUILayout.Button("Item"))
         {
             foreach (Object cur in targets)
             {
                 myScript = (AttributeHolder)cur;
-                myScript.setNoteType(noteType.DoubleTap);
+                myScript.setNoteType(noteType.Item);
             }
         }
 
@@ -69,6 +69,18 @@ public class NoteEditor : Editor {
         else
         {
             GUILayout.EndHorizontal();
+        }
+
+
+        if (myScript.getNote().myNoteType == noteType.Item)
+        {
+
+            string curItem = myScript.getNote().itemSpawn;
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Item Name: ");
+            myScript.getNote().itemSpawn =  GUILayout.TextField(curItem);
+            GUILayout.EndHorizontal();
+
         }
 
 
