@@ -49,6 +49,8 @@ public class notePlacerControl : MonoBehaviour {
 
     void Update()
     {
+        float parseTime = soundSource.timeSamples / 44100f;
+        GameObject.FindObjectOfType<SubtitleParserScript>().setTime(parseTime);
 
         if (Input.GetKeyDown("e")){
             createNote();
