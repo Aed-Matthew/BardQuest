@@ -57,6 +57,10 @@ public class SubtitleParserScript : MonoBehaviour {
                     //10 (target) 
                     //10.5 (word)
                     //Finds the closest word to our taget time
+                    if (w.spawnSecond > goalSecond)
+                {
+                    continue;
+                }
                     float wordDistance = Mathf.Abs(w.spawnSecond - goalSecond);
                 if (wordDistance > 2.0f) { continue; }
                     if (wordDistance < foundWordDistance) {
