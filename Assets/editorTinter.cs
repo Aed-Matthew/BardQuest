@@ -23,7 +23,13 @@ public class editorTinter : MonoBehaviour {
 
     void updateColor()
     {
+
         NA = gameObject.GetComponent<AttributeHolder>().getNote();
+        if (NA== null)
+        {
+            DestroyImmediate(gameObject);
+            return;
+        }
      if (NA.myNoteType == noteType.Tap)
      {
         SR.color = Color.red;

@@ -6,6 +6,8 @@ public class notePlacerControl : MonoBehaviour {
     public AudioClip soundToPlace;
     public AudioSource soundSource;
 
+    LineRenderer lineRenderer;
+    private float lineRendererOffset = 0f;
 
     int songPos = 0;
 
@@ -13,6 +15,7 @@ public class notePlacerControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
         soundSource = gameObject.AddComponent<AudioSource>();
 	}
 
@@ -46,9 +49,38 @@ public class notePlacerControl : MonoBehaviour {
     }
 
 
+    private void updateLineRenderer()
+    {
 
+        lineRenderer.SetWidth(0.1f, 0.2f);
+        float moveVal = (songPos - soundSource.timeSamples);
+        int sampleRate = soundToPlace.frequency;
+
+
+       // lineRendererOffset += (moveVal / (float)sampleRate * -1);
+
+
+        float[] Samples = new float[256];
+        soundSource.GetSpectrumData(Samples, 0, FFTWindow.Hamming);
+
+        Vector3[] points = new Vector3[256];
+        for(int i = 0; i < 256; i++)
+        {
+            points[i] = new Vector3(i*1, Samples[i]*20, 0);
+        }
+
+
+
+
+        lineRenderer.SetVertexCount(256);
+        lineRenderer.SetPositions(points);
+    }
     void Update()
     {
+        updateLineRenderer();
+
+
+
         float parseTime = soundSource.timeSamples / 44100f;
         GameObject.FindObjectOfType<SubtitleParserScript>().setTime(parseTime);
 
